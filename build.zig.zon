@@ -1,0 +1,20 @@
+.{
+    .name = .tinygltf,
+    .fingerprint = 0x9d9420c00f3cab31,
+    .version = "0.0.0",
+    .minimum_zig_version = "0.15.2",
+    .dependencies = .{
+        .tinygltf = .{
+            .url = "https://github.com/syoyo/tinygltf/archive/81bd50c1062fdb956e878efa2a9234b2b9ec91ec.tar.gz",
+            .hash = "N-V-__8AAHdbfwG4zWQxhEffNer07_oisGchAI6EmGAw6WuM", // zig build will tell you this
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "deps",
+        "LICENSE",
+        "README.md",
+    },
+}
